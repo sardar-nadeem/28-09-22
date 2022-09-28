@@ -15,7 +15,15 @@
 </head>
 <body>
     <center class="bg-secondary"><h1>javascript tutorial</h1> <b>28/09/2022</b> <hr></center>
-    <button class="btn btn-info">load data</button>
+    <button class="btn btn-info">load data</button> 
+    <form id="post" action="https://jsonplaceholder.typicode.com/posts"> <br> <br>
+        <input type="text" id="title" class="bg-info btn" style="width: 245px;" name="title" placeholder="title"> <br> <br>
+        <textarea name="body" id="body" cols="30" class="bg-info" rows="10"> 
+            the body text
+        </textarea> <br>
+        <button type="submit" class="btn btn-info">submit</button>
+
+    </form>
     <div class="header">
 
     </div>
@@ -25,6 +33,7 @@
     <div id="body" class="body">
 
     </div>
+ 
 
 </body>
 <script src="jquery.js"></script>
